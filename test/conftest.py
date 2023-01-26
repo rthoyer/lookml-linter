@@ -1,8 +1,8 @@
 
 import pytest
 import os
-from lkmltools.lookml import LookML
-from lkmltools.lookml_field import LookMLField
+from src.lookml import LookML
+from src.lookml_field import LookMLField
 
 @pytest.fixture(scope="module")
 def get_json_from_lookml(raw_lookml, user_defined_filename=None):

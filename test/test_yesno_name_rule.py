@@ -1,5 +1,5 @@
 import pytest
-from lkmltools.linter.rules.fieldrules.yesno_name_rule import YesNoNameRule
+from src.linter.rules.fieldrules.yesno_name_rule import YesNoNameRule
 from conftest import get_1st_dimension, get_1st_measure
 
 def test_run():

@@ -1,7 +1,7 @@
 import pytest
 import json
 import os
-from lkmltools.linter.rules.filerules.data_source_rule import DataSourceRule
+from src.linter.rules.filerules.data_source_rule import DataSourceRule
 from conftest import get_lookml_from_raw_lookml
 
 def test_run1():

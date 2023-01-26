@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>lkmltools.linter.rules.filerules package &mdash; lookml-tools 1.0.0 documentation</title>
+  <title>src.linter.rules.filerules package &mdash; lookml-tools 1.0.0 documentation</title>
   
 
   
@@ -133,13 +133,13 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-      <li>lkmltools.linter.rules.filerules package</li>
+      <li>src.linter.rules.filerules package</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/tmp/source/lkmltools.linter.rules.filerules.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/tmp/source/src.linter.rules.filerules.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -152,30 +152,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="lkmltools-linter-rules-filerules-package">
-<h1>lkmltools.linter.rules.filerules package<a class="headerlink" href="#lkmltools-linter-rules-filerules-package" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="src-linter-rules-filerules-package">
+<h1>src.linter.rules.filerules package<a class="headerlink" href="#src-linter-rules-filerules-package" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="module-lkmltools.linter.rules.filerules.data_source_rule">
-<span id="lkmltools-linter-rules-filerules-data-source-rule-module"></span><h2>lkmltools.linter.rules.filerules.data_source_rule module<a class="headerlink" href="#module-lkmltools.linter.rules.filerules.data_source_rule" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-src.linter.rules.filerules.data_source_rule">
+<span id="src-linter-rules-filerules-data-source-rule-module"></span><h2>src.linter.rules.filerules.data_source_rule module<a class="headerlink" href="#module-src.linter.rules.filerules.data_source_rule" title="Permalink to this headline">¶</a></h2>
 <p>A data source rule</p>
 <dl class="simple">
 <dt>Authors:</dt><dd><p>Carl Anderson (<a class="reference external" href="mailto:carl&#46;anderson&#37;&#52;&#48;weightwatchers&#46;com">carl<span>&#46;</span>anderson<span>&#64;</span>weightwatchers<span>&#46;</span>com</a>)</p>
 </dd>
 </dl>
 <dl class="class">
-<dt id="lkmltools.linter.rules.filerules.data_source_rule.DataSourceRule">
-<em class="property">class </em><code class="sig-prename descclassname">lkmltools.linter.rules.filerules.data_source_rule.</code><code class="sig-name descname">DataSourceRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.filerules.data_source_rule.DataSourceRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.rule.Rule" title="lkmltools.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.rule.Rule</span></code></a></p>
+<dt id="src.linter.rules.filerules.data_source_rule.DataSourceRule">
+<em class="property">class </em><code class="sig-prename descclassname">src.linter.rules.filerules.data_source_rule.</code><code class="sig-name descname">DataSourceRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.filerules.data_source_rule.DataSourceRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.rule.Rule" title="src.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.rule.Rule</span></code></a></p>
 <p>does source contain a sql_table_name or derived_table?</p>
 <dl class="method">
-<dt id="lkmltools.linter.rules.filerules.data_source_rule.DataSourceRule.run">
-<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.filerules.data_source_rule.DataSourceRule.run" title="Permalink to this definition">¶</a></dt>
+<dt id="src.linter.rules.filerules.data_source_rule.DataSourceRule.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.filerules.data_source_rule.DataSourceRule.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>does source contain a sql_table_name or derived_table?</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml.LookML" title="lkmltools.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
+<dd class="field-odd"><p><strong>lookml</strong> (<a class="reference internal" href="src.html#src.lookml.LookML" title="src.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -194,25 +194,25 @@
 </dd></dl>
 
 </div>
-<div class="section" id="module-lkmltools.linter.rules.filerules.filename_viewname_match_rule">
-<span id="lkmltools-linter-rules-filerules-filename-viewname-match-rule-module"></span><h2>lkmltools.linter.rules.filerules.filename_viewname_match_rule module<a class="headerlink" href="#module-lkmltools.linter.rules.filerules.filename_viewname_match_rule" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-src.linter.rules.filerules.filename_viewname_match_rule">
+<span id="src-linter-rules-filerules-filename-viewname-match-rule-module"></span><h2>src.linter.rules.filerules.filename_viewname_match_rule module<a class="headerlink" href="#module-src.linter.rules.filerules.filename_viewname_match_rule" title="Permalink to this headline">¶</a></h2>
 <p>a filename viewname rule</p>
 <dl class="simple">
 <dt>Authors:</dt><dd><p>Carl Anderson (<a class="reference external" href="mailto:carl&#46;anderson&#37;&#52;&#48;weightwatchers&#46;com">carl<span>&#46;</span>anderson<span>&#64;</span>weightwatchers<span>&#46;</span>com</a>)</p>
 </dd>
 </dl>
 <dl class="class">
-<dt id="lkmltools.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule">
-<em class="property">class </em><code class="sig-prename descclassname">lkmltools.linter.rules.filerules.filename_viewname_match_rule.</code><code class="sig-name descname">FilenameViewnameMatchRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.rule.Rule" title="lkmltools.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.rule.Rule</span></code></a></p>
+<dt id="src.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule">
+<em class="property">class </em><code class="sig-prename descclassname">src.linter.rules.filerules.filename_viewname_match_rule.</code><code class="sig-name descname">FilenameViewnameMatchRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.rule.Rule" title="src.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.rule.Rule</span></code></a></p>
 <p>does filename match the view name?</p>
 <dl class="method">
-<dt id="lkmltools.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule.run">
-<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule.run" title="Permalink to this definition">¶</a></dt>
+<dt id="src.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.filerules.filename_viewname_match_rule.FilenameViewnameMatchRule.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>does filename match the view name?</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml.LookML" title="lkmltools.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
+<dd class="field-odd"><p><strong>lookml</strong> (<a class="reference internal" href="src.html#src.lookml.LookML" title="src.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -231,25 +231,25 @@
 </dd></dl>
 
 </div>
-<div class="section" id="module-lkmltools.linter.rules.filerules.one_view_per_file_rule">
-<span id="lkmltools-linter-rules-filerules-one-view-per-file-rule-module"></span><h2>lkmltools.linter.rules.filerules.one_view_per_file_rule module<a class="headerlink" href="#module-lkmltools.linter.rules.filerules.one_view_per_file_rule" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-src.linter.rules.filerules.one_view_per_file_rule">
+<span id="src-linter-rules-filerules-one-view-per-file-rule-module"></span><h2>src.linter.rules.filerules.one_view_per_file_rule module<a class="headerlink" href="#module-src.linter.rules.filerules.one_view_per_file_rule" title="Permalink to this headline">¶</a></h2>
 <p>a one view per file rule</p>
 <dl class="simple">
 <dt>Authors:</dt><dd><p>Carl Anderson (<a class="reference external" href="mailto:carl&#46;anderson&#37;&#52;&#48;weightwatchers&#46;com">carl<span>&#46;</span>anderson<span>&#64;</span>weightwatchers<span>&#46;</span>com</a>)</p>
 </dd>
 </dl>
 <dl class="class">
-<dt id="lkmltools.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule">
-<em class="property">class </em><code class="sig-prename descclassname">lkmltools.linter.rules.filerules.one_view_per_file_rule.</code><code class="sig-name descname">OneViewPerFileRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.rule.Rule" title="lkmltools.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.rule.Rule</span></code></a></p>
+<dt id="src.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule">
+<em class="property">class </em><code class="sig-prename descclassname">src.linter.rules.filerules.one_view_per_file_rule.</code><code class="sig-name descname">OneViewPerFileRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.rule.Rule" title="src.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.rule.Rule</span></code></a></p>
 <p>is there one view only in this file?</p>
 <dl class="method">
-<dt id="lkmltools.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule.run">
-<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule.run" title="Permalink to this definition">¶</a></dt>
+<dt id="src.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.filerules.one_view_per_file_rule.OneViewPerFileRule.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>is there one view only in this LookML file?</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml.LookML" title="lkmltools.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
+<dd class="field-odd"><p><strong>lookml</strong> (<a class="reference internal" href="src.html#src.lookml.LookML" title="src.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -268,8 +268,8 @@
 </dd></dl>
 
 </div>
-<div class="section" id="module-lkmltools.linter.rules.filerules">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-lkmltools.linter.rules.filerules" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-src.linter.rules.filerules">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-src.linter.rules.filerules" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 

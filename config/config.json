@@ -1,0 +1,37 @@
+{
+
+  "git": {
+      "url": "https://github.com/govirtuo/looker.git",
+      "folder": "/"
+  },
+
+  "infile_globs": [
+      "/Users/romainthoyer/Documents/Virtuo/dev/looker/**/*.view.lkml"
+  ],
+
+  "rules": {
+      "file_level_rules" : [
+          {"name": "DataSourceRule", "run": true},
+          {"name": "OneViewPerFileRule", "run": true},
+          {"name": "FilenameViewnameMatchRule", "run": true}
+      ],
+      "field_level_rules": [
+          {"name": "DescriptionRule", "run": false},
+          {"name": "DrillDownRule", "run": true},
+          {"name": "YesNoNameRule", "run": false},
+          {"name": "CountNameRule", "run": false},
+          {"name": "AllCapsRule", "run": false},
+          {"name": "LexiconRule", "run": false, "phrases": ["Subscriber",  "Subscription", "studio"]}
+      ],
+      "other_rules": [
+          {"name": "NoOrphansRule", "run": false}
+      ]
+  },
+
+  "output": {
+      "csv": {
+          "file_output": "linter_file_report.csv",
+          "field_output": "linter_field_report.csv"
+      }
+  }
+}

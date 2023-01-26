@@ -1,7 +1,7 @@
 import pytest
-from lkmltools.linter.rules.fieldrules.lexicon_rule import LexiconRule
+from src.linter.rules.fieldrules.lexicon_rule import LexiconRule
 from conftest import get_1st_dimension, get_1st_measure
-from lkmltools.lookml_field import LookMLField
+from src.lookml_field import LookMLField
 
 def test_run():
     raw_lookml = """

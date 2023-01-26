@@ -1,4 +1,4 @@
-lkmltools.linter.rules package
+src.linter.rules package
 ==============================
 
 Subpackages
@@ -6,14 +6,14 @@ Subpackages
 
 .. toctree::
 
-   lkmltools.linter.rules.fieldrules
-   lkmltools.linter.rules.filerules
-   lkmltools.linter.rules.otherrules
+   src.linter.rules.fieldrules
+   src.linter.rules.filerules
+   src.linter.rules.otherrules
 
 Module contents
 ---------------
 
-.. automodule:: lkmltools.linter.rules
+.. automodule:: src.linter.rules
    :members:
    :undoc-members:
    :show-inheritance:

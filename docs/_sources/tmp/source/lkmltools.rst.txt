@@ -1,4 +1,4 @@
-lkmltools package
+src package
 =================
 
 Subpackages
@@ -6,59 +6,59 @@ Subpackages
 
 .. toctree::
 
-   lkmltools.grapher
-   lkmltools.linter
-   lkmltools.updater
+   src.grapher
+   src.linter
+   src.updater
 
 Submodules
 ----------
 
-lkmltools.abstract\_rule module
+src.abstract\_rule module
 -------------------------------
 
-.. automodule:: lkmltools.abstract_rule
+.. automodule:: src.abstract_rule
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.bq\_writer module
+src.bq\_writer module
 ---------------------------
 
-.. automodule:: lkmltools.bq_writer
+.. automodule:: src.bq_writer
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.google\_auth\_helper module
+src.google\_auth\_helper module
 -------------------------------------
 
-.. automodule:: lkmltools.google_auth_helper
+.. automodule:: src.google_auth_helper
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.lookml module
+src.lookml module
 -----------------------
 
-.. automodule:: lkmltools.lookml
+.. automodule:: src.lookml
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.lookml\_field module
+src.lookml\_field module
 ------------------------------
 
-.. automodule:: lkmltools.lookml_field
+.. automodule:: src.lookml_field
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.simple\_bq\_writer module
+src.simple\_bq\_writer module
 -----------------------------------
 
-.. automodule:: lkmltools.simple_bq_writer
+.. automodule:: src.simple_bq_writer
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.util module
+src.util module
 ---------------------
 
-.. automodule:: lkmltools.util
+.. automodule:: src.util
    :members:
    :undoc-members:
    :show-inheritance:
@@ -67,7 +67,7 @@ lkmltools.util module
 Module contents
 ---------------
 
-.. automodule:: lkmltools
+.. automodule:: src
    :members:
    :undoc-members:
    :show-inheritance:

@@ -190,7 +190,7 @@
 <span class="sd">        &#39;&#39;&#39;</span>
 </pre></div>
 </div>
-<p>which is in <code class="docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule</span></code> file where <code class="docutils literal notranslate"><span class="pre">LookMLField</span></code> is a wrapper around the JSON data for that field.</p>
+<p>which is in <code class="docutils literal notranslate"><span class="pre">src.linter.field_rule</span></code> file where <code class="docutils literal notranslate"><span class="pre">LookMLField</span></code> is a wrapper around the JSON data for that field.</p>
 <p>These rules must always return two Boolean flags:</p>
 <ul class="simple">
 <li><p><strong>Relevant</strong>: was the rule relevant for this fragment. So, if a rule that only applies to <code class="docutils literal notranslate"><span class="pre">measures</span></code> is fed JSON from a <code class="docutils literal notranslate"><span class="pre">dimension_group</span></code>, it should return <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
@@ -213,7 +213,7 @@
 <span class="sd">        &#39;&#39;&#39;</span>
 </pre></div>
 </div>
-<p>which is in the <code class="docutils literal notranslate"><span class="pre">lkmltools.linter.rule</span></code> file.
+<p>which is in the <code class="docutils literal notranslate"><span class="pre">src.linter.rule</span></code> file.
 This time however, the input is an instance of <code class="docutils literal notranslate"><span class="pre">LookML</span></code> which is a wrapper around the parsed JSON of the whole LookML file.</p>
 <p>Both <code class="docutils literal notranslate"><span class="pre">LookML</span></code> and <code class="docutils literal notranslate"><span class="pre">LookMLField</span></code> provide methods for querying the LookML attributes without having to intimately understand the JSON representation.
 For instance, for the <code class="docutils literal notranslate"><span class="pre">DrillDownRule</span></code>, which only applies to measures, the implementation is:</p>
@@ -242,7 +242,7 @@ You should examine the parsed JSON of some LookML files to see the structure. Fo
 </div>
 <p>If you implement a new rule, it will need to be registered with the <code class="docutils literal notranslate"><span class="pre">RuleFactory</span></code> before it can be used.
 You can register new rules using the <code class="docutils literal notranslate"><span class="pre">RuleFactory</span></code> singleton:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">lkmltools.linter.rule_factory</span> <span class="k">import</span> <span class="n">RuleFactory</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">src.linter.rule_factory</span> <span class="k">import</span> <span class="n">RuleFactory</span>
 
 <span class="kn">from</span> <span class="nn">mymodules.myawesomerule</span> <span class="k">import</span> <span class="n">MyAwesomeRule</span>
 

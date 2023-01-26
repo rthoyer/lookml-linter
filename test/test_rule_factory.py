@@ -1,9 +1,9 @@
 import pytest
-from lkmltools.linter.rule_factory import RuleFactory
-from lkmltools.linter.rules.fieldrules.all_caps_rule import AllCapsRule
+from src.linter.rule_factory import RuleFactory
+from src.linter.rules.fieldrules.all_caps_rule import AllCapsRule
 
-from lkmltools.linter.field_rule import FieldRule
-from lkmltools.lookml_field import LookMLField
+from src.linter.field_rule import FieldRule
+from src.lookml_field import LookMLField
 
 def test_instantiate():
     obj = RuleFactory().instantiate("AllCapsRule")

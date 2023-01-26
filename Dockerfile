@@ -3,7 +3,7 @@ FROM python:3.6.4
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY lkmltools ./lkmltools
+COPY src ./src
 COPY test ./test
 COPY .git ./.git
 
@@ -12,5 +12,5 @@ RUN apt-get update
 
 RUN apt-get install graphviz -y sudo
 
-ENTRYPOINT ["python", "-m", "pytest", "--cov=lkmltools/", "test/"]
+ENTRYPOINT ["python", "-m", "pytest", "--cov=src/", "test/"]
 

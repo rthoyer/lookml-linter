@@ -2,13 +2,12 @@ import os
 import json
 import pytest
 from pandas import DataFrame
-from lkmltools.linter.lookml_linter import LookMlLinter
-from lkmltools.linter.rules.filerules.data_source_rule import DataSourceRule
-from lkmltools.linter.rules.filerules.filename_viewname_match_rule import FilenameViewnameMatchRule
-from lkmltools.linter.rules.fieldrules.description_rule import DescriptionRule
-from lkmltools.lookml import LookML
+from src.linter.lookml_linter import LookMlLinter
+from src.linter.rules.filerules.data_source_rule import DataSourceRule
+from src.linter.rules.filerules.filename_viewname_match_rule import FilenameViewnameMatchRule
+from src.linter.rules.fieldrules.description_rule import DescriptionRule
+from src.lookml import LookML
 from conftest import get_1st_dimension, get_json_from_lookml
-from lkmltools.bq_writer import BqWriter 
 
 def test_initialize_rules():
     config = {
@@ -136,7 +135,6 @@ def test_run(monkeypatch):
     def do_nothing(*args, **kwargs): #destination_table, project_id, if_exists):
         pass
     monkeypatch.setattr(DataFrame, 'to_gbq', do_nothing)
-    monkeypatch.setattr(BqWriter, 'upload', do_nothing)
 
     if os.path.exists(config['output']['csv']['file_output']):
         os.remove(config['output']['csv']['file_output'])

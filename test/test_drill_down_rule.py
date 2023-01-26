@@ -1,5 +1,5 @@
 import pytest
-from lkmltools.linter.rules.fieldrules.drill_down_rule import DrillDownRule
+from src.linter.rules.fieldrules.drill_down_rule import DrillDownRule
 from conftest import get_1st_dimension, get_1st_measure
 
 def test_run():

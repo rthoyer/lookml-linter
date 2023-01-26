@@ -167,7 +167,7 @@
 <p>As part of this tool suite, we include a LookML linter–a linter is a tool that checks that code conforms to some specified rules, such as formatting or naming conventions. While there are at least two other open source linters <a class="reference external" href="#">https://github.com/WarbyParker/lookmlint</a> and <a class="reference external" href="#">https://looker-open-source.github.io/look-at-me-sideways/rules.html</a>, they don’t include our particular list of coding standards so either we would have to code our checks into their framework or code our own. As it only amounts to 200 lines of code, and we can reuse code from the LookML updater, we went with the latter option.</p>
 <div class="section" id="how-it-works">
 <h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">config/linter/config_linter.json</span></code> specifies which set of files to apply the linter to, by specifying a file glob. For instance,</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">config/config.json</span></code> specifies which set of files to apply the linter to, by specifying a file glob. For instance,</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="s2">&quot;infile_globs&quot;</span><span class="p">:</span> <span class="p">[</span>
         <span class="s2">&quot;/Users/joedoe/myrepo/*.view.lkml&quot;</span>
     <span class="p">],</span>

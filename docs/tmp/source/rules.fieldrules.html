@@ -167,7 +167,7 @@
 <dl class="class">
 <dt id="rules.fieldrules.all_caps_rule.AllCapsRule">
 <em class="property">class </em><code class="sig-prename descclassname">rules.fieldrules.all_caps_rule.</code><code class="sig-name descname">AllCapsRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rules.fieldrules.all_caps_rule.AllCapsRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.field_rule.FieldRule" title="lkmltools.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule.FieldRule</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.field_rule.FieldRule" title="src.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.field_rule.FieldRule</span></code></a></p>
 <p>is the name non all caps?</p>
 <dl class="method">
 <dt id="rules.fieldrules.all_caps_rule.AllCapsRule.run">
@@ -175,7 +175,7 @@
 <dd><p>is the name non all caps?</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml_field.LookMLField" title="lkmltools.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
+<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="src.html#src.lookml_field.LookMLField" title="src.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -204,7 +204,7 @@
 <dl class="class">
 <dt id="rules.fieldrules.count_name_rule.CountNameRule">
 <em class="property">class </em><code class="sig-prename descclassname">rules.fieldrules.count_name_rule.</code><code class="sig-name descname">CountNameRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rules.fieldrules.count_name_rule.CountNameRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.field_rule.FieldRule" title="lkmltools.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule.FieldRule</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.field_rule.FieldRule" title="src.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.field_rule.FieldRule</span></code></a></p>
 <p>if this is a measure of type count, does name end with <code class="docutils literal notranslate"><span class="pre">_count</span></code></p>
 <dl class="method">
 <dt id="rules.fieldrules.count_name_rule.CountNameRule.run">
@@ -212,7 +212,7 @@
 <dd><p>if this is a measure of type count, does name end with <code class="docutils literal notranslate"><span class="pre">_count</span></code></p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml_field.LookMLField" title="lkmltools.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
+<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="src.html#src.lookml_field.LookMLField" title="src.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -241,7 +241,7 @@
 <dl class="class">
 <dt id="rules.fieldrules.description_rule.DescriptionRule">
 <em class="property">class </em><code class="sig-prename descclassname">rules.fieldrules.description_rule.</code><code class="sig-name descname">DescriptionRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rules.fieldrules.description_rule.DescriptionRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.field_rule.FieldRule" title="lkmltools.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule.FieldRule</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.field_rule.FieldRule" title="src.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.field_rule.FieldRule</span></code></a></p>
 <p>Does <cite>dimension</cite>, <cite>dimension_group</cite>, or <cite>measure</cite> have a description?</p>
 <dl class="method">
 <dt id="rules.fieldrules.description_rule.DescriptionRule.run">
@@ -249,7 +249,7 @@
 <dd><p>Run the rule: check whether <cite>dimension</cite>, <cite>dimension_group</cite>, or <cite>measure</cite> has a description</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml_field.LookMLField" title="lkmltools.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
+<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="src.html#src.lookml_field.LookMLField" title="src.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -278,7 +278,7 @@
 <dl class="class">
 <dt id="rules.fieldrules.drill_down_rule.DrillDownRule">
 <em class="property">class </em><code class="sig-prename descclassname">rules.fieldrules.drill_down_rule.</code><code class="sig-name descname">DrillDownRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rules.fieldrules.drill_down_rule.DrillDownRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.field_rule.FieldRule" title="lkmltools.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule.FieldRule</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.field_rule.FieldRule" title="src.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.field_rule.FieldRule</span></code></a></p>
 <p>does this have drilldowns?</p>
 <dl class="method">
 <dt id="rules.fieldrules.drill_down_rule.DrillDownRule.run">
@@ -286,7 +286,7 @@
 <dd><p>does this have drilldowns?</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml_field.LookMLField" title="lkmltools.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
+<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="src.html#src.lookml_field.LookMLField" title="src.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -315,7 +315,7 @@
 <dl class="class">
 <dt id="rules.fieldrules.lexicon_rule.LexiconRule">
 <em class="property">class </em><code class="sig-prename descclassname">rules.fieldrules.lexicon_rule.</code><code class="sig-name descname">LexiconRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rules.fieldrules.lexicon_rule.LexiconRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.field_rule.FieldRule" title="lkmltools.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule.FieldRule</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.field_rule.FieldRule" title="src.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.field_rule.FieldRule</span></code></a></p>
 <p>does dimension, dimension group, or measure follow some lexicon rules,
 i.e. not mention certain words or phrases in name or description?</p>
 <dl class="method">
@@ -325,7 +325,7 @@ i.e. not mention certain words or phrases in name or description?</p>
 phrases provided int the config</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml_field.LookMLField" title="lkmltools.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
+<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="src.html#src.lookml_field.LookMLField" title="src.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>
@@ -354,7 +354,7 @@ phrases provided int the config</p>
 <dl class="class">
 <dt id="rules.fieldrules.yesno_name_rule.YesNoNameRule">
 <em class="property">class </em><code class="sig-prename descclassname">rules.fieldrules.yesno_name_rule.</code><code class="sig-name descname">YesNoNameRule</code><span class="sig-paren">(</span><em class="sig-param">config_dict=None</em><span class="sig-paren">)</span><a class="headerlink" href="#rules.fieldrules.yesno_name_rule.YesNoNameRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.field_rule.FieldRule" title="lkmltools.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.field_rule.FieldRule</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.field_rule.FieldRule" title="src.linter.field_rule.FieldRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.field_rule.FieldRule</span></code></a></p>
 <p>if this is a yesno dimension, does name start with <code class="docutils literal notranslate"><span class="pre">is_</span></code></p>
 <dl class="method">
 <dt id="rules.fieldrules.yesno_name_rule.YesNoNameRule.run">
@@ -362,7 +362,7 @@ phrases provided int the config</p>
 <dd><p>if this is a yesno dimension, does name start with <code class="docutils literal notranslate"><span class="pre">is_</span></code></p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml_field.LookMLField" title="lkmltools.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
+<dd class="field-odd"><p><strong>lookml_field</strong> (<a class="reference internal" href="src.html#src.lookml_field.LookMLField" title="src.lookml_field.LookMLField"><em>LookMLField</em></a>) – instance of LookMLField</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><p>tuple containing:</p>

@@ -13,20 +13,17 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/grapher'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/updater'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/linter'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/linter/rules'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/linter/rules/fieldrules'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/linter/rules/filerules'))
-sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/lkmltools/linter/rules/otherrules'))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/src'))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/src/linter'))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/src/linter/rules'))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/src/linter/rules/fieldrules'))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/src/linter/rules/filerules'))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__) + '/src/linter/rules/otherrules'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'lookml-tools'
-copyright = '2019, WW International, Inc'
-author = 'Carl Anderson'
+project = 'lookml-linter'
+author = 'Romain Thoyer'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'

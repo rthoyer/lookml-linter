@@ -1,7 +1,7 @@
 import pytest
-from lkmltools.linter.rules.fieldrules.all_caps_rule import AllCapsRule
+from src.linter.rules.fieldrules.all_caps_rule import AllCapsRule
 from conftest import get_1st_dimension, get_1st_measure
-from lkmltools.lookml_field import LookMLField
+from src.lookml_field import LookMLField
 
 def test_name():
     # testing on behalf of abstract class

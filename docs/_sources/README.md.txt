@@ -72,7 +72,7 @@ Run with
 ```
 pip install pytest-cov
 
-python -m pytest --cov=lkmltools/ test/*.py ; coverage html
+python -m pytest --cov=src/ test/*.py ; coverage html
 ```
 
 ## Developer Notes
@@ -119,7 +119,7 @@ Given the impact of the following two changes, this is a major release:
 
 Other changes:
 
- - `lkmltools.RuleFactory` is now a singleton so it is easier for users to register their own rules.
+ - `src.RuleFactory` is now a singleton so it is easier for users to register their own rules.
  - Can now parameterize any rule in the configuration by adding additional keys to the dictionary for that rule.
   For instance, if the config defines `{"name": "MyAwesomeRule", "run": true, "debug": true, "strict_mode":true, length: 6}` then this whole dictionary is passed into the constructor during rule instantiation.
 

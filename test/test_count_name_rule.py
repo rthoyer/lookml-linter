@@ -1,5 +1,5 @@
 import pytest
-from lkmltools.linter.rules.fieldrules.count_name_rule import CountNameRule
+from src.linter.rules.fieldrules.count_name_rule import CountNameRule
 from conftest import get_1st_measure, get_1st_dimension
 
 def test_run():

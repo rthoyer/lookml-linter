@@ -1,14 +1,14 @@
 .coverage
 htmlcov/
-lkmltools/__pycache__/
-lkmltools/grapher/__pycache__/
-lkmltools/linter/__pycache__/
-lkmltools/linter/rules/fieldrules/__pycache__/
-lkmltools/linter/rules/filerules/__pycache__/
-lkmltools/linter/rules/otherrules/__pycache__/
-lkmltools/updater/__pycache__/
+src/__pycache__/
+src/grapher/__pycache__/
+src/linter/__pycache__/
+src/linter/rules/fieldrules/__pycache__/
+src/linter/rules/filerules/__pycache__/
+src/linter/rules/otherrules/__pycache__/
 test/__pycache__/
 
 .DS_Store
 .cache/
+.python-version
 graph.png

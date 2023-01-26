@@ -1,4 +1,4 @@
-lkmltools.linter package
+src.linter package
 ========================
 
 Subpackages
@@ -6,36 +6,36 @@ Subpackages
 
 .. toctree::
 
-   lkmltools.linter.rules
+   src.linter.rules
 
 Submodules
 ----------
 
-lkmltools.linter.field\_rule module
+src.linter.field\_rule module
 -----------------------------------
 
-.. automodule:: lkmltools.linter.field_rule
+.. automodule:: src.linter.field_rule
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.linter.lookml\_linter module
+src.linter.lookml\_linter module
 --------------------------------------
 
-.. automodule:: lkmltools.linter.lookml_linter
+.. automodule:: src.linter.lookml_linter
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.linter.rule module
+src.linter.rule module
 ----------------------------
 
-.. automodule:: lkmltools.linter.rule
+.. automodule:: src.linter.rule
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.linter.rule\_factory module
+src.linter.rule\_factory module
 -------------------------------------
 
-.. automodule:: lkmltools.linter.rule_factory
+.. automodule:: src.linter.rule_factory
    :members:
    :undoc-members:
    :show-inheritance:
@@ -44,7 +44,7 @@ lkmltools.linter.rule\_factory module
 Module contents
 ---------------
 
-.. automodule:: lkmltools.linter
+.. automodule:: src.linter
    :members:
    :undoc-members:
    :show-inheritance:

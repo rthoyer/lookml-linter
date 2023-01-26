@@ -1,76 +1,76 @@
-lkmltools.updater package
+src.updater package
 =========================
 
 Submodules
 ----------
 
-lkmltools.updater.abstract\_sql\_reader module
+src.updater.abstract\_sql\_reader module
 ----------------------------------------------
 
-.. automodule:: lkmltools.updater.abstract_sql_reader
+.. automodule:: src.updater.abstract_sql_reader
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.bq\_definitions\_provider module
+src.updater.bq\_definitions\_provider module
 --------------------------------------------------
 
-.. automodule:: lkmltools.updater.bq_definitions_provider
+.. automodule:: src.updater.bq_definitions_provider
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.csv\_definitions\_provider module
+src.updater.csv\_definitions\_provider module
 ---------------------------------------------------
 
-.. automodule:: lkmltools.updater.csv_definitions_provider
+.. automodule:: src.updater.csv_definitions_provider
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.definition\_provider module
+src.updater.definition\_provider module
 ---------------------------------------------
 
-.. automodule:: lkmltools.updater.definition_provider
+.. automodule:: src.updater.definition_provider
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.definitions\_provider\_factory module
+src.updater.definitions\_provider\_factory module
 -------------------------------------------------------
 
-.. automodule:: lkmltools.updater.definitions_provider_factory
+.. automodule:: src.updater.definitions_provider_factory
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.file\_modifier module
+src.updater.file\_modifier module
 ---------------------------------------
 
-.. automodule:: lkmltools.updater.file_modifier
+.. automodule:: src.updater.file_modifier
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.lookml\_modifier module
+src.updater.lookml\_modifier module
 -----------------------------------------
 
-.. automodule:: lkmltools.updater.lookml_modifier
+.. automodule:: src.updater.lookml_modifier
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.mysql\_reader module
+src.updater.mysql\_reader module
 --------------------------------------
 
-.. automodule:: lkmltools.updater.mysql_reader
+.. automodule:: src.updater.mysql_reader
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.postgres\_reader module
+src.updater.postgres\_reader module
 -----------------------------------------
 
-.. automodule:: lkmltools.updater.postgres_reader
+.. automodule:: src.updater.postgres_reader
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.updater.sqlite\_reader module
+src.updater.sqlite\_reader module
 ---------------------------------------
 
-.. automodule:: lkmltools.updater.sqlite_reader
+.. automodule:: src.updater.sqlite_reader
    :members:
    :undoc-members:
    :show-inheritance:
@@ -79,7 +79,7 @@ lkmltools.updater.sqlite\_reader module
 Module contents
 ---------------
 
-.. automodule:: lkmltools.updater
+.. automodule:: src.updater
    :members:
    :undoc-members:
    :show-inheritance:

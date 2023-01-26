@@ -27,7 +27,7 @@ Field-level rules have an interface:
 
         '''
 ```
-which is in `lkmltools.linter.field_rule` file where `LookMLField` is a wrapper around the JSON data for that field. 
+which is in `src.linter.field_rule` file where `LookMLField` is a wrapper around the JSON data for that field. 
  
 These rules must always return two Boolean flags:
  
@@ -52,7 +52,7 @@ File-level rules have a similar interface:
 
         '''
 ```
-which is in the `lkmltools.linter.rule` file.
+which is in the `src.linter.rule` file.
 This time however, the input is an instance of `LookML` which is a wrapper around the parsed JSON of the whole LookML file.
 
 Both `LookML` and `LookMLField` provide methods for querying the LookML attributes without having to intimately understand the JSON representation.
@@ -88,7 +88,7 @@ If you implement a new rule, it will need to be registered with the `RuleFactory
 You can register new rules using the `RuleFactory` singleton:
 
 ```
-from lkmltools.linter.rule_factory import RuleFactory
+from src.linter.rule_factory import RuleFactory
 
 from mymodules.myawesomerule import MyAwesomeRule
 

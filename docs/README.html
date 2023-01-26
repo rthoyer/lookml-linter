@@ -239,7 +239,7 @@
 <p>Run with</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pytest</span><span class="o">-</span><span class="n">cov</span>
 
-<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pytest</span> <span class="o">--</span><span class="n">cov</span><span class="o">=</span><span class="n">lkmltools</span><span class="o">/</span> <span class="n">test</span><span class="o">/*.</span><span class="n">py</span> <span class="p">;</span> <span class="n">coverage</span> <span class="n">html</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pytest</span> <span class="o">--</span><span class="n">cov</span><span class="o">=</span><span class="n">src</span><span class="o">/</span> <span class="n">test</span><span class="o">/*.</span><span class="n">py</span> <span class="p">;</span> <span class="n">coverage</span> <span class="n">html</span>
 </pre></div>
 </div>
 </div>
@@ -286,7 +286,7 @@ Thanks for your contribution https://github.com/m-deck!</p>
 </ul>
 <p>Other changes:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">lkmltools.RuleFactory</span></code> is now a singleton so it is easier for users to register their own rules.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">src.RuleFactory</span></code> is now a singleton so it is easier for users to register their own rules.</p></li>
 <li><p>Can now parameterize any rule in the configuration by adding additional keys to the dictionary for that rule.
 For instance, if the config defines <code class="docutils literal notranslate"><span class="pre">{&quot;name&quot;:</span> <span class="pre">&quot;MyAwesomeRule&quot;,</span> <span class="pre">&quot;run&quot;:</span> <span class="pre">true,</span> <span class="pre">&quot;debug&quot;:</span> <span class="pre">true,</span> <span class="pre">&quot;strict_mode&quot;:true,</span> <span class="pre">length:</span> <span class="pre">6}</span></code> then this whole dictionary is passed into the constructor during rule instantiation.</p></li>
 </ul>

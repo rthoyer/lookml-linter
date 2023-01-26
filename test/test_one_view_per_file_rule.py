@@ -1,7 +1,7 @@
 import pytest
 import json
 import os
-from lkmltools.linter.rules.filerules.one_view_per_file_rule import OneViewPerFileRule
+from src.linter.rules.filerules.one_view_per_file_rule import OneViewPerFileRule
 from conftest import get_lookml_from_raw_lookml
 
 def test_run():

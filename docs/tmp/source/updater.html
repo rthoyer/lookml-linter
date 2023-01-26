@@ -162,7 +162,7 @@
 <dl class="class">
 <dt id="updater.abstract_sql_reader.AbstractSqlReader">
 <em class="property">class </em><code class="sig-prename descclassname">updater.abstract_sql_reader.</code><code class="sig-name descname">AbstractSqlReader</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#updater.abstract_sql_reader.AbstractSqlReader" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.updater.html#lkmltools.updater.definition_provider.DefinitionProvider" title="lkmltools.updater.definition_provider.DefinitionProvider"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.updater.definition_provider.DefinitionProvider</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.updater.html#src.updater.definition_provider.DefinitionProvider" title="src.updater.definition_provider.DefinitionProvider"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.updater.definition_provider.DefinitionProvider</span></code></a></p>
 <p>A reader that explicitly reads from relational DB using SQL and is able to run pd.read_sql</p>
 <dl class="method">
 <dt id="updater.abstract_sql_reader.AbstractSqlReader.get_connection">
@@ -218,7 +218,7 @@ password (str): password</p>
 <dl class="class">
 <dt id="updater.bq_definitions_provider.BqDefinitionsProvider">
 <em class="property">class </em><code class="sig-prename descclassname">updater.bq_definitions_provider.</code><code class="sig-name descname">BqDefinitionsProvider</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#updater.bq_definitions_provider.BqDefinitionsProvider" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.updater.html#lkmltools.updater.definition_provider.DefinitionProvider" title="lkmltools.updater.definition_provider.DefinitionProvider"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.updater.definition_provider.DefinitionProvider</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.updater.html#src.updater.definition_provider.DefinitionProvider" title="src.updater.definition_provider.DefinitionProvider"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.updater.definition_provider.DefinitionProvider</span></code></a></p>
 <p>A definitions provider that provides definitions from a BigQuery table</p>
 <dl class="method">
 <dt id="updater.bq_definitions_provider.BqDefinitionsProvider.get_definitions">
@@ -246,7 +246,7 @@ password (str): password</p>
 <dl class="class">
 <dt id="updater.csv_definitions_provider.CsvDefinitionsProvider">
 <em class="property">class </em><code class="sig-prename descclassname">updater.csv_definitions_provider.</code><code class="sig-name descname">CsvDefinitionsProvider</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#updater.csv_definitions_provider.CsvDefinitionsProvider" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.updater.html#lkmltools.updater.definition_provider.DefinitionProvider" title="lkmltools.updater.definition_provider.DefinitionProvider"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.updater.definition_provider.DefinitionProvider</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.updater.html#src.updater.definition_provider.DefinitionProvider" title="src.updater.definition_provider.DefinitionProvider"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.updater.definition_provider.DefinitionProvider</span></code></a></p>
 <p>A definitions provider that provides definitions from a CSV file</p>
 <dl class="method">
 <dt id="updater.csv_definitions_provider.CsvDefinitionsProvider.get_definitions">
@@ -464,7 +464,7 @@ to filemodifier to make requested changes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>lookml</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml.LookML" title="lkmltools.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p></li>
+<li><p><strong>lookml</strong> (<a class="reference internal" href="src.html#src.lookml.LookML" title="src.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p></li>
 <li><p><strong>header_type</strong> (<em>str</em>) – ‘measure’ or ‘dimension’</p></li>
 <li><p><strong>header_name</strong> (<em>str</em>) – name of measure or dimension</p></li>
 </ul>
@@ -511,7 +511,7 @@ However, you can configure to match on LookML file basename by setting
 <dl class="class">
 <dt id="updater.mysql_reader.MySQLReader">
 <em class="property">class </em><code class="sig-prename descclassname">updater.mysql_reader.</code><code class="sig-name descname">MySQLReader</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#updater.mysql_reader.MySQLReader" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.updater.html#lkmltools.updater.abstract_sql_reader.AbstractSqlReader" title="lkmltools.updater.abstract_sql_reader.AbstractSqlReader"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.updater.abstract_sql_reader.AbstractSqlReader</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.updater.html#src.updater.abstract_sql_reader.AbstractSqlReader" title="src.updater.abstract_sql_reader.AbstractSqlReader"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.updater.abstract_sql_reader.AbstractSqlReader</span></code></a></p>
 <p>Runs MySQL queries into pandas dataframes</p>
 <dl class="method">
 <dt id="updater.mysql_reader.MySQLReader.get_connection">
@@ -534,7 +534,7 @@ However, you can configure to match on LookML file basename by setting
 <dl class="class">
 <dt id="updater.postgres_reader.PostgreSQLReader">
 <em class="property">class </em><code class="sig-prename descclassname">updater.postgres_reader.</code><code class="sig-name descname">PostgreSQLReader</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#updater.postgres_reader.PostgreSQLReader" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.updater.html#lkmltools.updater.abstract_sql_reader.AbstractSqlReader" title="lkmltools.updater.abstract_sql_reader.AbstractSqlReader"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.updater.abstract_sql_reader.AbstractSqlReader</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.updater.html#src.updater.abstract_sql_reader.AbstractSqlReader" title="src.updater.abstract_sql_reader.AbstractSqlReader"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.updater.abstract_sql_reader.AbstractSqlReader</span></code></a></p>
 <p>Runs PostgreSQL queries into pandas dataframes</p>
 <dl class="method">
 <dt id="updater.postgres_reader.PostgreSQLReader.get_connection">
@@ -557,7 +557,7 @@ However, you can configure to match on LookML file basename by setting
 <dl class="class">
 <dt id="updater.sqlite_reader.SQLiteReader">
 <em class="property">class </em><code class="sig-prename descclassname">updater.sqlite_reader.</code><code class="sig-name descname">SQLiteReader</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#updater.sqlite_reader.SQLiteReader" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.updater.html#lkmltools.updater.abstract_sql_reader.AbstractSqlReader" title="lkmltools.updater.abstract_sql_reader.AbstractSqlReader"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.updater.abstract_sql_reader.AbstractSqlReader</span></code></a></p>
+<dd><p>Bases: <a class="reference internal" href="src.updater.html#src.updater.abstract_sql_reader.AbstractSqlReader" title="src.updater.abstract_sql_reader.AbstractSqlReader"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.updater.abstract_sql_reader.AbstractSqlReader</span></code></a></p>
 <p>Runs SQLite queries into pandas dataframes</p>
 <dl class="method">
 <dt id="updater.sqlite_reader.SQLiteReader.get_connection">

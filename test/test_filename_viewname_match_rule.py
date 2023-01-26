@@ -1,7 +1,7 @@
 import pytest
 import os
 import json
-from lkmltools.linter.rules.filerules.filename_viewname_match_rule import FilenameViewnameMatchRule
+from src.linter.rules.filerules.filename_viewname_match_rule import FilenameViewnameMatchRule
 from conftest import get_lookml_from_raw_lookml
 
 def test_run():

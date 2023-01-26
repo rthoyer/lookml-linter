@@ -3,7 +3,7 @@
 As part of this tool suite, we include a LookML linter--a linter is a tool that checks that code conforms to some specified rules, such as formatting or naming conventions. While there are at least two other open source linters [https://github.com/WarbyParker/lookmlint](https://github.com/WarbyParker/lookmlint) and [https://looker-open-source.github.io/look-at-me-sideways/rules.html](https://looker-open-source.github.io/look-at-me-sideways/rules.html), they don't include our particular list of coding standards so either we would have to code our checks into their framework or code our own. As it only amounts to 200 lines of code, and we can reuse code from the LookML updater, we went with the latter option.
 
 ## How it works
-The `config/linter/config_linter.json` specifies which set of files to apply the linter to, by specifying a file glob. For instance, 
+The `config/config.json` specifies which set of files to apply the linter to, by specifying a file glob. For instance, 
 
 ```
     "infile_globs": [
@@ -81,7 +81,7 @@ The complete dictionary for the rule (above) is passed into the `LexiconRule` du
 To run, 
 
 ```
-python run_linter.py --config config/linter/config_linter.json
+python run_linter.py --config config/config.json
 ```
 and this saves output files such as:
 

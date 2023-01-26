@@ -3,26 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to lookml-tools's documentation!
+Welcome to lookml-linter's documentation!
 ========================================
 
 .. image:: img/lookmltools.png
    :height: 100px
 
-This repository contains some tools to handle best practices of a set of developers working on LookML files. There are three tools: LookML updater, LookML linter, LookML grapher
+This repository a linter tool built for developers working on LookML files.
 
 .. toctree::
    :maxdepth: 8
 
    README.md
    README_LINTER.md
-   README_GRAPHER.md
-   README_UPDATER.md
    README_DEVELOPER.md
 
    examples/linter/README.md
-   examples/grapher/README.md
-   examples/updater/README.md
 
    :caption: Contents:
 

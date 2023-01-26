@@ -2,8 +2,8 @@ import os
 import json
 import glob
 import pytest
-from lkmltools.linter.rules.otherrules.no_orphans_rule import NoOrphansRule
-from lkmltools.lookml import LookML
+from src.linter.rules.otherrules.no_orphans_rule import NoOrphansRule
+from src.lookml import LookML
 from conftest import get_lookml_from_raw_lookml
 
 def test_process_file():

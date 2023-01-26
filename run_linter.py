@@ -7,7 +7,7 @@ import argparse
 import logging
 import os
 import json
-from lkmltools.linter.lookml_linter import LookMlLinter
+from src.linter.lookml_linter import LookMlLinter
 
 def parse_arguments():
     """Parse command line arguments

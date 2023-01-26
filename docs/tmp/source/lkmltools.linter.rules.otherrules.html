@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>lkmltools.linter.rules.otherrules package &mdash; lookml-tools 1.0.0 documentation</title>
+  <title>src.linter.rules.otherrules package &mdash; lookml-tools 1.0.0 documentation</title>
   
 
   
@@ -133,13 +133,13 @@
     
       <li><a href="../../index.html">Docs</a> &raquo;</li>
         
-      <li>lkmltools.linter.rules.otherrules package</li>
+      <li>src.linter.rules.otherrules package</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/tmp/source/lkmltools.linter.rules.otherrules.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/tmp/source/src.linter.rules.otherrules.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -152,25 +152,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="lkmltools-linter-rules-otherrules-package">
-<h1>lkmltools.linter.rules.otherrules package<a class="headerlink" href="#lkmltools-linter-rules-otherrules-package" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="src-linter-rules-otherrules-package">
+<h1>src.linter.rules.otherrules package<a class="headerlink" href="#src-linter-rules-otherrules-package" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="module-lkmltools.linter.rules.otherrules.no_orphans_rule">
-<span id="lkmltools-linter-rules-otherrules-no-orphans-rule-module"></span><h2>lkmltools.linter.rules.otherrules.no_orphans_rule module<a class="headerlink" href="#module-lkmltools.linter.rules.otherrules.no_orphans_rule" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-src.linter.rules.otherrules.no_orphans_rule">
+<span id="src-linter-rules-otherrules-no-orphans-rule-module"></span><h2>src.linter.rules.otherrules.no_orphans_rule module<a class="headerlink" href="#module-src.linter.rules.otherrules.no_orphans_rule" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
 <dt>Authors:</dt><dd><p>Carl Anderson (<a class="reference external" href="mailto:carl&#46;anderson&#37;&#52;&#48;weightwatchers&#46;com">carl<span>&#46;</span>anderson<span>&#64;</span>weightwatchers<span>&#46;</span>com</a>)</p>
 </dd>
 </dl>
 <dl class="class">
-<dt id="lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule">
-<em class="property">class </em><code class="sig-prename descclassname">lkmltools.linter.rules.otherrules.no_orphans_rule.</code><code class="sig-name descname">NoOrphansRule</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="lkmltools.linter.html#lkmltools.linter.rule.Rule" title="lkmltools.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">lkmltools.linter.rule.Rule</span></code></a></p>
+<dt id="src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule">
+<em class="property">class </em><code class="sig-prename descclassname">src.linter.rules.otherrules.no_orphans_rule.</code><code class="sig-name descname">NoOrphansRule</code><span class="sig-paren">(</span><em class="sig-param">config</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="src.linter.html#src.linter.rule.Rule" title="src.linter.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">src.linter.rule.Rule</span></code></a></p>
 <p>Look for views unreferenced by any explores</p>
 <dl class="method">
-<dt id="lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.finish_up">
-<code class="sig-name descname">finish_up</code><span class="sig-paren">(</span><em class="sig-param">file_out</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.finish_up" title="Permalink to this definition">¶</a></dt>
+<dt id="src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.finish_up">
+<code class="sig-name descname">finish_up</code><span class="sig-paren">(</span><em class="sig-param">file_out</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.finish_up" title="Permalink to this definition">¶</a></dt>
 <dd><p>find the orphans, if any, and add results to file_out</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -183,15 +183,15 @@
 </dd></dl>
 
 <dl class="method">
-<dt id="lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.process_lookml">
-<code class="sig-name descname">process_lookml</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.process_lookml" title="Permalink to this definition">¶</a></dt>
+<dt id="src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.process_lookml">
+<code class="sig-name descname">process_lookml</code><span class="sig-paren">(</span><em class="sig-param">lookml</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.process_lookml" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="simple">
 <dt>process the JSON_DATA of a file, delegating down to the grapher</dt><dd><p>also store metadata we’ll need in a later stage</p>
 </dd>
 </dl>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>lookmlk</strong> (<a class="reference internal" href="lkmltools.html#lkmltools.lookml.LookML" title="lkmltools.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
+<dd class="field-odd"><p><strong>lookmlk</strong> (<a class="reference internal" href="src.html#src.lookml.LookML" title="src.lookml.LookML"><em>LookML</em></a>) – instance of LookML</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p>nothing. side effect is to store data in grapher and in this class</p>
@@ -200,8 +200,8 @@
 </dd></dl>
 
 <dl class="method">
-<dt id="lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.run">
-<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">json_data</em><span class="sig-paren">)</span><a class="headerlink" href="#lkmltools.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.run" title="Permalink to this definition">¶</a></dt>
+<dt id="src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><em class="sig-param">json_data</em><span class="sig-paren">)</span><a class="headerlink" href="#src.linter.rules.otherrules.no_orphans_rule.NoOrphansRule.run" title="Permalink to this definition">¶</a></dt>
 <dd><p>run the rule</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -224,8 +224,8 @@
 </dd></dl>
 
 </div>
-<div class="section" id="module-lkmltools.linter.rules.otherrules">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-lkmltools.linter.rules.otherrules" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-src.linter.rules.otherrules">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-src.linter.rules.otherrules" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 

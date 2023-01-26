@@ -1,20 +1,20 @@
-lkmltools.grapher package
+src.grapher package
 =========================
 
 Submodules
 ----------
 
-lkmltools.grapher.graph\_animator module
+src.grapher.graph\_animator module
 ----------------------------------------
 
-.. automodule:: lkmltools.grapher.graph_animator
+.. automodule:: src.grapher.graph_animator
    :members:
    :undoc-members:
    :show-inheritance:
-lkmltools.grapher.lookml\_grapher module
+src.grapher.lookml\_grapher module
 ----------------------------------------
 
-.. automodule:: lkmltools.grapher.lookml_grapher
+.. automodule:: src.grapher.lookml_grapher
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ lkmltools.grapher.lookml\_grapher module
 Module contents
 ---------------
 
-.. automodule:: lkmltools.grapher
+.. automodule:: src.grapher
    :members:
    :undoc-members:
    :show-inheritance:

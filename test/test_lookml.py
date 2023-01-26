@@ -1,7 +1,7 @@
 
 import pytest
 import os
-from lkmltools.lookml import LookML
+from src.lookml import LookML
 from conftest import get_lookml_from_raw_lookml
 
 
